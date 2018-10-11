@@ -1,0 +1,42 @@
+div.ex1 { /* Intereface */
+  width: 500px;
+  height: auto;
+  border: 3px solid #73AD21;
+  margin: auto;
+}
+div.ex2{ /* Botones */
+  width: 500px;
+  height: auto;
+  border: 2px solid blue;
+  margin: auto;
+}
+td#stats {
+  height: 100%;
+  width: 25%;
+}
+table {
+  width: 230px;
+  height: 100px;
+}
+table, th, td { /* Borde de la tabla */
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+body {
+  background-color: #aaaaaaaa;
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+p {
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+}
+canvas {
+  border-style: inset;
+}
