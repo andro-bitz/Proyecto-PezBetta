@@ -1,22 +1,41 @@
-div.ex1 { /* Intereface */
-  width: 500px;
+#ctx{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.botones{
+  display: none;
+}
+th{
+  font-size: 24px;
+}
+input{
+  height: 50px;
+  width: 100px;
+}
+div.ex1 { /* Área Contexto */
+  width: 600px;
   height: auto;
   border: 3px solid #73AD21;
-  margin: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
-div.ex2{ /* Botones */
-  width: 500px;
+div.ex2{ /* Área Botones */
+  width: 600px;
   height: auto;
   border: 2px solid blue;
   margin: auto;
 }
-td#stats {
+#stats {
   height: 100%;
-  width: 25%;
+  width: 30%;
+  vertical-align: top;
+  text-align: left;
+  font-family: verdana;
 }
 table {
-  width: 230px;
-  height: 100px;
+  width: 500px;
+  height: 300px;
 }
 table, th, td { /* Borde de la tabla */
   border: 3px solid black;
@@ -27,15 +46,14 @@ body {
   background-color: #aaaaaaaa;
   text-align: center;
 }
-h2 {
+h1 {
   color: black;
   text-align: center;
   font-family: sans-serif;
 }
 p {
-  text-align: center;
   font-family: verdana;
-  font-size: 20px;
+  font-size: 15px;
 }
 canvas {
   border-style: inset;
