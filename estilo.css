@@ -15,7 +15,7 @@ input{
 div.ex1 { /* Área Contexto */
   width: 600px;
   height: auto;
-  border: 3px solid #73AD21;
+  border: 3px solid blue;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -23,7 +23,7 @@ div.ex1 { /* Área Contexto */
 div.ex2{ /* Área Botones */
   width: 600px;
   height: auto;
-  border: 2px solid blue;
+  border: 3px solid red;
   margin: auto;
 }
 #stats {
